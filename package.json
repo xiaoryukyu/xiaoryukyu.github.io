@@ -1,0 +1,20 @@
+{
+  "name": "xiaoryukyu-point_cloud",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9",
+    "vite-plugin-cesium": "^1.2.22"
+  },
+  "dependencies": {
+    "cesium": "^1.115",
+    "mvt-imagery-provider": "^1.0.3"
+  },
+  "license": "MIT"
+}
